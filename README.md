@@ -1,5 +1,7 @@
 # Check-out Queue Simulation
 
+## React app with implementation using reduers.
+
 ### `npm start`
 
 Runs the app in the development mode.\
