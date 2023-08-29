@@ -1,0 +1,35 @@
+.queue {
+  display: flex;
+  flex-direction: column;
+}
+
+.counter {
+  height: 12vh;
+  width: 12vh;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  display: flex;
+}
+
+.counter > p {
+  margin: auto;
+}
+
+.cart-queue {
+  margin: 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart {
+  height: 12vh;
+  width: 12vh;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+}
+
+.cart > p {
+  margin: auto;
+}

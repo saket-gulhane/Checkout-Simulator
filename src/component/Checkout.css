@@ -1,0 +1,41 @@
+.checkout-app {
+  position: absolute;
+  margin: 5vh 20vw;
+  width: 60vw;
+}
+
+.checkout-group {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+.checkout-entry {
+  margin: 30px;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.checkout-entry > input {
+  line-height: 22px;
+  background-color: #000;
+  color: #fff;
+  outline: 1px solid #fff;
+}
+
+.checkout-entry > button {
+  margin-left: 15px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.checkout-entry > button:hover {
+  outline: 2px solid #fff;
+  background-color: #3b3602;
+}
